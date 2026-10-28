@@ -1,0 +1,55 @@
+# ==========================================
+# Build Output Directories
+# ==========================================
+build/
+bin/
+lib/
+out/
+cmake-build-*/
+
+# ==========================================
+# CMake Artifacts
+# ==========================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# ==========================================
+# Ninja Build Artifacts
+# ==========================================
+.ninja_deps
+.ninja_log
+
+# ==========================================
+# Compiled Binaries & Objects
+# ==========================================
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+*.elf
+
+# ==========================================
+# IDE & Editor Configurations
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# OS Specific Files
+# ==========================================
+.DS_Store
+Thumbs.db
